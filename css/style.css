@@ -1,0 +1,706 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Fix whitespace */
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  color: #555;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 9.6rem;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: #fff;
+  width: 60%;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 700;
+}
+
+.normal-text-md {
+  font-size: 2.4rem;
+  color: #333;
+  line-height: 1.6;
+}
+.normal-text-sm {
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ***************************
+*********** HEADER ************
+*******************************/
+
+.header-section {
+  padding: 1.2rem 3.6rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.nav-links span {
+  font-size: 1.6rem;
+  color: #555;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  border: #eee 1px solid;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.nav-link-login:link,
+.nav-link-login:visited {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.login-logo {
+  width: 2.4rem;
+}
+
+/* **********************
+******* Hero Section ****
+************************* */
+.hero-container {
+  padding: 4.8rem 9.6rem;
+}
+
+.hero-nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10.8rem;
+  gap: 4.8rem;
+}
+
+.logo {
+  height: 2.4rem;
+  filter: brightness(1000);
+}
+
+.hero-nav-link:link,
+.hero-nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.hero-nav ul li:nth-child(2) {
+  justify-self: end;
+}
+
+.hero-nav ul li:last-child {
+  justify-self: end;
+}
+
+.login-icon {
+  fill: #fff;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.hero-img {
+  background-image: url(../img/header-img.jpg);
+  background-size: cover;
+  min-width: 100%;
+  height: 91vh;
+  background-position: 10%;
+}
+
+/* ***********************
+********* about us *******
+************************** */
+
+.section-about-us {
+  padding: 9.6rem 9.6rem 4.8rem 9.6rem;
+  display: flex;
+  justify-content: center;
+}
+.about-us-container .subheading {
+  text-align: center;
+}
+.about-us-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* *************************
+******* app section ********
+**************************** */
+.section-app {
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+  row-gap: 0rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.step-text .heading-secondary {
+  margin-bottom: 2.4rem;
+}
+
+.step-text {
+  width: 70%;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+.step-img {
+  padding: 9.6rem;
+}
+
+/* **************************
+******* Desktop details *****
+***************************** */
+.section-desktop {
+  padding: 9.6rem 6.4rem;
+}
+/* .section-desktop .container {
+  padding: 9.6rem;
+} */
+.section-desktop .heading-secondary {
+  margin-bottom: 2.4rem;
+}
+
+.text-container {
+  width: 40%;
+  margin-bottom: 4.8rem;
+}
+
+.desktop-img-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.desktop-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ***********************
+********* CTA Section *****
+****************************/
+.section-join {
+  padding: 12.8rem;
+  text-align: center;
+}
+.cta-link:link,
+.cta-link:visited {
+  padding: 3.6rem 6.4rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  text-decoration: none;
+  color: #f05523;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+/* ***************************
+****** community section ******
+****************************** */
+.section-community {
+  padding: 9.6rem 3.2rem;
+  text-align: center;
+}
+
+.community-heading-container {
+  width: 40%;
+  margin: 0 auto;
+  color: #333;
+  margin-bottom: 12.8rem;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  right: -8rem;
+}
+
+.community-text {
+  background-color: #dadada;
+}
+
+.community-text-box {
+  text-align: left;
+  background-color: #dadada;
+  padding: 4.8rem 15.6rem 4.8rem 4.8rem;
+}
+
+.community-text-box .heading-secondary {
+  margin-bottom: 2.4rem;
+}
+
+.community-img-container img {
+  width: 100%;
+  position: relative;
+  right: 9.6rem;
+  top: -9.6rem;
+}
+
+/* ********************
+******** Features *****
+********************* */
+.section-features {
+  padding: 9.6rem 6.4rem;
+}
+
+.section-features .heading-secondary {
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+}
+
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.feature-name {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+/* ******************************
+*********** Section try Free ****
+********************************* */
+
+.section-try-free {
+  padding: 9.6rem 6.4rem;
+  text-align: center;
+}
+
+.try-grid {
+  text-align: left;
+  margin-bottom: 12.8rem;
+  display: grid;
+  grid-template-columns: 24rem 1fr;
+  column-gap: 20rem;
+}
+
+.free-options {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+}
+.free-options li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/* *****************************
+****** Section Premium Into ****
+******************************** */
+.premium-intro-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.1) 75%
+    ),
+    url("../img/premium-intro.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 9.6rem 6.4rem;
+  margin-top: 9.6rem;
+}
+
+.section-premium .heading-secondary {
+  color: #fff;
+  font-size: 6.4rem;
+  width: 40%;
+  font-weight: 700;
+}
+
+/* *********************************
+******** Premium feature section ***
+************************************ */
+.section-about-premium {
+  background-color: #393939;
+  color: #fff;
+}
+
+.section-about-premium .container {
+  padding: 9.6rem 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-about-premium .subheading {
+  color: #eee;
+  text-align: center;
+  display: block;
+  margin-bottom: 3.6rem;
+}
+
+.section-about-premium .normal-text-md,
+.section-about-premium .normal-text-sm {
+  color: #fff;
+}
+
+.section-about-premium .normal-text-md {
+  width: 70%;
+  margin-bottom: 4.8rem;
+}
+
+.beacon-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beacon-img {
+  width: 30%;
+  margin-bottom: 3.6rem;
+}
+.beacon-feature .heading-secondary {
+  margin-bottom: 2.4rem;
+}
+.beacon-feature .normal-text-sm {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.premium-feature-heading {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.premium-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6.4rem;
+}
+
+.premium-feature-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.premium-feature-name {
+  display: block;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+/* ****************************
+********** Go Premium *********
+******************************* */
+.section-premium-features {
+  background-color: #565656;
+  color: #fff;
+}
+.section-premium-features .container {
+  padding: 9.6rem 6.4rem 15.6rem 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.premium-option-grid {
+  text-align: left;
+  margin-bottom: 12.8rem;
+  display: grid;
+  grid-template-columns: 24rem 1fr;
+  column-gap: 20rem;
+}
+
+.premium-options {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+}
+
+.premium-options li {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.section-premium-features .normal-text-sm {
+  color: #fff;
+}
+
+/* ********************************
+****** Other sport img ************
+*********************************** */
+
+.other-sports-img {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.05) 60%
+    ),
+    url("../img/other-sports.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 6.4rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.other-sports-img .normal-text-md {
+  color: #fff;
+  width: 60%;
+  text-align: center;
+}
+
+/* *************************
+********* CTA Section ******
+**************************** */
+.section-cta .container {
+  padding: 12.8rem 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-cta .container:first-child {
+  background-color: #ff470c;
+}
+
+.section-cta .container:last-child {
+  background-color: #2e2e2e;
+}
+
+.section-cta .heading-secondary {
+  color: #fff;
+}
+
+.explore-btn:link,
+.explore-btn:visited {
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* ******************
+**** Footer *********
+********************* */
+.footer-section {
+  background-color: #515151;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-grid.container {
+  padding: 9.6rem 6.4rem;
+}
+
+.footer-container .normal-text-sm {
+  margin-top: 2.4rem;
+  color: #ccc;
+}
+.footer-container .subheading {
+  font-size: 2.4rem;
+  color: #fff;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.footer-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-container a:link,
+.footer-container a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* ****************************
+*********** Mobile Nav ********
+******************************* */
+
+.mobile-nav-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  z-index: 999;
+}
+
+.open-nav-icon,
+.close-nav-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.close-nav-icon {
+  display: none;
+}
+
+.open-nav .close-nav-icon {
+  display: block;
+}
+
+.open-nav .open-nav-icon {
+  display: none;
+}
+
+.mobile-logo {
+  height: 2.4rem;
+  display: none;
+}
+
+.mobile-nav {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6.4rem 9.6rem;
+  transition: all 0.5s ease-out;
+
+  transform: translateX(100%);
+
+  /* Hide */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.open-nav .mobile-nav {
+  opacity: 0.99;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.mobile-nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.mobile-nav-items span:first-child {
+  font-size: 2rem;
+}
+
+.mobile-nav .nav-link-login {
+  font-size: 2rem;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+  display: block;
+  padding: 2px 0;
+  margin-bottom: 1rem;
+}
+
+.mobile-nav-link:link,
+.mobile-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 2.4rem;
+}
+
+/* ************************
+******** Sticky Nav *******
+*************************** */
+
+.sticky .header-section {
+  height: 8rem;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  background-color: rgba(255, 255, 255, 0.97);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+.sticky .section-hero {
+  margin-top: 8rem;
+}
